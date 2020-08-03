@@ -43,6 +43,8 @@ class UI {
         <td>${patient.location}</td>
         <td>${patient.notes}</td>
         <td><a href="#" class="btn btn-danger btn-sm delete">x</a></td>
+        <td><a href="#" class="btn btn-info btn-sm edit">+</a></td>
     `
+    list.appendChild(row)
   }
 }
